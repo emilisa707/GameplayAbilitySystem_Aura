@@ -57,6 +57,7 @@ private:
 
 	IEnemyInterface* LastActor;
 	IEnemyInterface* ThisActor;
+	FHitResult CursorHit;
 
 	UPROPERTY(EditDefaultsOnly)
 		float AutoRunAcceptanceRadius = 50.f;
